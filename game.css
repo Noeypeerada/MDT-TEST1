@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(154, 208, 240);
+}
+
+fieldset{
+    background-color:rgb(245, 184, 245);
+    font-family: 'Quicksand', sans-serif;
+    color: black; 
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif
+}
+
+fieldset legend{
+    font-size: 30px;
+}
+
+.content{
+    text-align: center;
+    line-height: 50px;
+}
+
+.content input{
+    border: none;
+    background-color: rgb(223, 214, 228);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+.content span{
+    font-size: 20px;
+}
+
+.content select{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(136, 120, 209);
+    color: whitesmoke;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif;
+    cursor: pointer;
+}
+
+.content button{
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    background-color: rgb(236, 97, 162);
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover{
+    transition: all 0.5s;
+    box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -webkit-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+    -moz-box-shadow: 8px 10px 53px 6px rgba(138,112,112,0.59);
+}
+
+#timerClock{
+    font-size: 20px;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color:rgb(245, 184, 245);
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgb(255, 252, 252);
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}

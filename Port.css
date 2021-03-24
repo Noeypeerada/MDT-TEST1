@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.img{
+    width: 50px;
+    border-radius: 50%;
+}
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+
+.header {
+    background: rgb(255, 253, 253) url(pic/bg1.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.header_area {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    /* width: 660px; */
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.info1 {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid rgb(255, 252, 252);
+    height: 100%;
+    padding: 20px;
+}
+
+.about_img {
+    margin-top: 10px;
+    text-align: center;
+    height: 50%;
+}
+
+.img {
+    width: 400px;
+    padding: 3px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#abt_pic {
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(245, 244, 244);
+    width: 80%;
+    display: flex;
+    top: 20px;
+}
+
+.name {
+    margin-top: 15px;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+}
+
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color :white;
+}
+.skill > div {
+    font-size: 18px;
+    font-style: normal;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    background-color:white;
+  }
+.skill img {
+    width: 100%;
+    height: 100%;
+}
+.info2 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 252, 252);
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.name2 {
+    margin-top: 15px;
+    font-size: 15px;
+    float: right;
+    text-align: center;
+}
+/* .contact {
+    text-align: center;
+    background: rgb(8, 7, 7) ;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+    
+    
+} */
+.contact_area {
+    /* margin: auto; */
+    color: #333;
+    
+}
+.contact_text {
+    text-align: center;
+    /* text-decoration: underline rgb(255, 255, 255); */
+    /* width: 85%; */
+    /* float: left; */
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+    
+}
+a{
+    color: rgb(255, 255, 255);
+}
+.contact_area h1 {
+    margin: 0;
+    font-weight: normal;
+    
+}
+.info2 {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 252, 252);
+    height: 100%;
+    padding: 20px;
+}
+
+/* Project.css */
+
+.bodypj{
+    background-color: rgb(240, 205, 182);
+}
+.icon1{
+    border-radius: 1000px;
+    border: 0px;
+    width: 20%;
+}
+
+.head1{
+    color: rgb(7, 5, 5);
+    border: none;
+    font-size: 50px;
+    background-color: wheat;
+    border-radius: 300px;
+    margin-top: 10px;
+}
+.head2{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 30px;
+    margin-bottom: auto;
+    color: rgb(255, 220, 65);
+}
+.hr1{
+    background-color: wheat;
+    height: 3px;
+}
+.pic1{
+    border: none;
+    border-radius: 60px;
+}
+#sleepy{
+    text-align: left;
+    margin-left: 70px;
+    width: 20%;
+}
+.head3{
+    color: rgb(5, 5, 4);
+    font-size: 36px;
+    text-decoration: underline;
+}
+.model_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.model_flex img{
+    width: 100%;
+}
+.model_flex > div{
+    border: 5px solid rgb(255, 255, 255);
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.setting{
+    text-align: center;
+    font-size: 15px;
+}
+.game{
+    text-decoration: underline rgb(255, 255, 255);
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    font-size: 22px;
+}
+.game2{
+    font-size: 18px;
+    
+}
+.game3{
+    margin-left: 70px;
+    text-decoration: underline rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.example{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.example img{
+    width: 100%;
+}
+.example > div{
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.last{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}  

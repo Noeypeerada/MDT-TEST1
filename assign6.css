@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(236, 190, 245);
+    font-family: 'Quicksand', sans-serif;
+    color: black; 
+    font-size: 20px;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif
+
+}
+span{
+    color: orangered;
+    font-size: 15px;
+}
+#myform{
+    
+    background-color:rgb(177, 226, 245);
+    text-align: center;
+}
+#topic{
+    color: rgb(0, 0, 5);
+    font-size: 60px;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif
+}
+#Loginform{
+    background-color:rgb(236, 190, 245);
+    text-align: center;
+    font-style: italic;
+    font-family: Garamond, "Times New Roman", serif
+
+}
